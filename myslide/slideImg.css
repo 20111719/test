@@ -1,0 +1,31 @@
+.roll{
+	background-color: #000;
+	overflow: hidden;
+	position: relative;
+}
+
+.roll .imgBox{
+	position: relative;
+}
+
+.roll .tipBox{
+	position: absolute;
+	bottom: 10px;
+	padding: 5px;
+	background-color: #ccc;
+	border-radius: 7px;
+}
+
+.roll .tipBox a{
+	width: 5px;
+	height: 5px;
+	background-color: #757575;
+	display: block;
+	float: left;
+	margin: 0 3px;
+	border-radius: 7px;
+}
+
+.roll .tipBox a.current{
+	background-color: #e3b916;
+}

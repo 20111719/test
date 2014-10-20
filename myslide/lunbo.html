@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+	<head>
+		<meta equiv-http='Content-Type' content='text/html; charset=utf-8'>
+		<link rel="stylesheet" type="text/css" href="slideImg.css"/>
+		<script type="text/javascript" src='jquery.js'></script>
+		<script type="text/javascript" src='myslideimgauto.js'></script>
+		<script type="text/javascript" src='myslide.js'></script>
+	</head>
+	<body>
+		<div class='roll'></div>
+		<script type="text/javascript">
+			var a =[];
+			for ( var i = 0; i < 4; i++) {
+				var j ={};
+				j.src = 'p'+ i +'.jpg';
+				a.push(j);
+			}
+			$('.roll').slideImg({
+				width:480,
+				height:250,
+				direction:'left'
+				});
+		</script>
+	</body>
+</html>
